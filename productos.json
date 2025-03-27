@@ -1,0 +1,687 @@
+[
+    {
+        "name": "ALMOHADAS QUEEN",
+        "price": 20,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ALMOHADAS STANDAR 60 40",
+        "price": 15,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "AREPERA ELECTRICA DE 5 AREPAS NATIONALIZER",
+        "price": 130,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "BALDES",
+        "price": 7,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "BATERIA PARA CARRO",
+        "price": 279,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "BATIDORA DE MANO",
+        "price": 63,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "BOX 2 PLAZAS",
+        "price": 150,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "BOX ESPALDAR PLAZA Y MEDIA",
+        "price": 300,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "box plaza 1/5",
+        "price": 150,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CABEZERA 2 PLAZAS",
+        "price": 150,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CAFETERA ELECTRICA",
+        "price": 55,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CAMA PERSONALIZADA",
+        "price": 590,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "camarote avanty 2 plazas mas colchones",
+        "price": 930.0,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CESTA DE ROPA GRANDE",
+        "price": 25,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CESTA DE ROPA MEDIANA",
+        "price": 15,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CESTA DE ROPA PEQUEÑA",
+        "price": 10,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CLOSET 2 PUERTAS MELAMINE",
+        "price": 295,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CLOSET 6 PUERTAS TOCADOR",
+        "price": 630,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CLOSET DE 3 PUERTAS",
+        "price": 400,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COBERTOR FINO",
+        "price": 79,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COCINA 4HORNILLAS SAMY ENCENDIDO ELÉCTRICO",
+        "price": 470,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COCINA DE MESA 2 HORNILLAS FADIC",
+        "price": 70,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COCINA DE MESA 4 HORNILLAS",
+        "price": 130,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COCINA DE MESA VIDRIO TEMPLADO 2 HORNILLAS A GAS",
+        "price": 79,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COCINA FADIC SIN ENCENDIDO ELECTRICO",
+        "price": 413,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COCINADE MESA  VIDRIO TEMPLADO 3 HORNILLAS A GAS",
+        "price": 83,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COLCHON PARAISO 2Plazas",
+        "price": 300,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COLCHON PLAZA Y MEDIA",
+        "price": 295,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COLCHON POKERT 2 PLAZAS",
+        "price": 450,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Colchón pokert king size",
+        "price": 700,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COMEDOR 4 SILLAS",
+        "price": 430,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CONGELADOR 297 L",
+        "price": 1050.0,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CONGELADOR BLACKLINE 251 L",
+        "price": 800.0,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "CONGELADOR INDURAMA 297 L",
+        "price": 1050.0,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "COOLER 21 LITROS",
+        "price": 105,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "DONUT MAKER 2000W",
+        "price": 65,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ESCOBA",
+        "price": 7,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ESPEJO GRANDE",
+        "price": 90,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ESTRACTOR DE JUGO PREMIUM",
+        "price": 250,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "FREIDORA 6 LITROS",
+        "price": 201.78,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "FREIDORA De AIRE 8l",
+        "price": 203,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "FRIOBAR OSTER",
+        "price": 569,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Horno Microondas HMM-20N 20L Miray",
+        "price": 240,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "JUEGO DE SARTEN TEFLON 3PIEZAS BRIKENIA",
+        "price": 65,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "JUEGO DE VAJILLA 16pz",
+        "price": 55,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "JUEGO SARTEN 3Piezas",
+        "price": 85,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "JUEGOS DE CUBIERTOS",
+        "price": 20,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LAVADORA 10KG HISENSE",
+        "price": 699,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LAVADORA 10Kg MABE",
+        "price": 700,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LAVADORA 13 Kg LG",
+        "price": 1100,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LICUADORA 550W OSTER",
+        "price": 179,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LICUADORA CLASSIC",
+        "price": 113.28,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LICUADORA IMACO",
+        "price": 106.2,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LICUADORA OSTER",
+        "price": 299,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LICUADORA OSTER 800w",
+        "price": 199,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "LLANTAS MOTOTAXI BAJAJ MRF",
+        "price": 110,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "MANTA PIEL DURAZNO 2 KG COLOR ENTERO 2 PLAZAS",
+        "price": 50,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "MAQUINA WAHL MAGIC CLIP",
+        "price": 680,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "MESA PLEGABLE CUADRADA",
+        "price": 43,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "NEVERA HISENSE GRANDE NOFROST",
+        "price": 1238,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "NEVERA HISENSE PEQUEÑA",
+        "price": 838,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "NEVERA INDURAMA",
+        "price": 950,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLA A PRESION 5LITROS",
+        "price": 70,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLA ARROCERA CON VAPORERA 2.8L Oster",
+        "price": 240,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLA ARROCERA DE 1.2 LITROS IMACO",
+        "price": 100,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLA ARROCERA DE 1.8LITROS CON VAPORIZADOR IMACO",
+        "price": 105,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLA PRESION 9LITROS",
+        "price": 107.38,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLA PRESION DE 7.5 litros SUPREMA",
+        "price": 99.12,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLAS ROCA VOLCANICAS",
+        "price": 270,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLAS SENCILLAS 4 PIEZAS",
+        "price": 115,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "OLLAS SENCILLAS ACERO INOXIDABLE",
+        "price": 220,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ORGANIZADOR 4 NIVELES",
+        "price": 25,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PAPELERA GRANDE",
+        "price": 13,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PAPELERA PEQUEÑA",
+        "price": 9,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE CAFINI GRANDE",
+        "price": 271.4,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE CAFINI MEDIANO",
+        "price": 160,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE GRANDE ESTEREO PREMIUM",
+        "price": 360,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE MEDIANO + ACCESORIOS",
+        "price": 200,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE MEDIANO GENERICO STEREO",
+        "price": 170,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE PEQUEÑO",
+        "price": 30,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PARLANTE PREMIUM JVC",
+        "price": 99,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PATINES 4 ruedas",
+        "price": 100,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PERCHERO CON ORGANIZADOR DE ZAPATOS ARMABLE",
+        "price": 35,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PLANCHA A VAPOR GRANDE",
+        "price": 60,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PLANCHA A VAPOR IMACO",
+        "price": 42.48,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PORTA PLATOS DE ACERO INOXIDABLE KANGDA",
+        "price": 105,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODCUTO LIMPIEZA LIMPIA VIDRIO",
+        "price": 6,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZA DESATORADOR",
+        "price": 15,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZA DETERGENTE LIQUIDO",
+        "price": 20,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZA JABON LIQUIDO",
+        "price": 10,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZA LAVAVAJILLA",
+        "price": 18,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZA PINO NATURAL",
+        "price": 8,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZA QUITAGRASA",
+        "price": 9.99,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PRODUCTO LIMPIEZAKRESO DESINFECTANTE",
+        "price": 8,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PROTECTOR DE COLCHON ANTIFLUIDOS 1.5PLAZA",
+        "price": 75,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PROTECTOR DE COLCHON ANTIFLUIDOS 1PLAZA",
+        "price": 70,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "PROTECTOR DE COLCHON ANTIFLUIDOS 2PLAZAS",
+        "price": 85,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "RACK TV 32-43",
+        "price": 45,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "RACK TV 50-55 PULGADAS",
+        "price": 50,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Redmi 14c",
+        "price": 520,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "REDMI NOTE 13 8 de ram",
+        "price": 700,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Redmi NOTE 13 pro 5g",
+        "price": 1210,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "REDMI NOTE 14",
+        "price": 790,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Refrigeradora 205L  blackline frost",
+        "price": 629,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "repostero con espacio para horno microondas",
+        "price": 250,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "REPOSTERO CON VERDUDERO",
+        "price": 220,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ROBOT TRANSFORMER 2en1",
+        "price": 35,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ROBOT TRANSFORMER+MASCARA",
+        "price": 30,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ROPERO 2 CUERPOS ARMABLE",
+        "price": 37,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ROPERO 3 CUERPOS ARMABLE",
+        "price": 44,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "SABANA 100% ALGODON 4 PIEZAS",
+        "price": 45,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "SABANAS 2 PLAZAS CON BORDE HAIRIFON",
+        "price": 56,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "SABANAS ESTAMPADAS QUEEN 2 plazas y media",
+        "price": 50,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "SABANAS SIN BORDE 2PLAZAS HAIRIFON",
+        "price": 49,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "sandwichera nationalizer",
+        "price": 50,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "SILLAS PLAYERAS",
+        "price": 35,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TELEFONO SAMSUNG A35",
+        "price": 1000,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Televisor 32\" Google TV HD JVC",
+        "price": 479,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TELEVISOR 43\" LED SMARTGOOGLE TV JVC",
+        "price": 749,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TELEVISOR 50 JVC SMAT TV",
+        "price": 1099,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "televisor 58\" Qled 4k google",
+        "price": 1320.0,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TELEVISOR 65\" SMARTGOOGLE TV 4K JVC",
+        "price": 1500,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "Termo hervidor eléctrico nationalizer 2L",
+        "price": 33,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TETERA 5L BRIKENIA",
+        "price": 30,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "THERMO 3LITROS SUPREMA",
+        "price": 32,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TOALLAS DE ROSTRO Y MANO",
+        "price": 8,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TOALLAS NACIONAL  1,50 MT 75 CMS",
+        "price": 21,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TOALLAS NACIONAL MEDIANA 1,20 MT 60 CMS",
+        "price": 15,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "TRAPERO",
+        "price": 9,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "VENTILADOR 3 ASPA",
+        "price": 60,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "VENTILADOR DE MESA",
+        "price": 130,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "VENTILADOR DE PARED",
+        "price": 80,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "VENTILADORES 5 ASPA",
+        "price": 65,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "WAFLERA NATIONALIZER ANTIADHERENTE",
+        "price": 50,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ZAPATERA CON ESPEJO",
+        "price": 177,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "ZAPATERO_ARMABLE",
+        "price": 44,
+        "image": "imagen_no_disponible.jpg"
+    },
+    {
+        "name": "arepera imaco",
+        "price": 150.0,
+        "image": "imagen_no_disponible.jpg"
+    }
+]
