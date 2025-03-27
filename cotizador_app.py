@@ -70,7 +70,21 @@ nombres_productos = [p["name"] for p in productos]
 
 with st.sidebar:
     st.header("📋 Parámetros de cotización")
+
     productos_seleccionados = st.multiselect("Selecciona productos", nombres_productos)
+
+    st.markdown("---")
+    st.subheader("➕ Agregar producto personalizado")
+    nombre_personalizado = st.text_input("Nombre del producto")
+    precio_personalizado = st.number_input("Precio del producto ($)", min_value=0.0, step=10.0)
+
+    # Si se llenaron ambos campos, lo agregamos virtualmente a la selección
+    if nombre_personalizado and precio_personalizado > 0:
+        productos_seleccionados.append(nombre_personalizado)
+        productos.append({"name": nombre_personalizado, "price": precio_personalizado, "image": ""})
+        nombres_productos.append(nombre_personalizado)
+
+    st.markdown("---")
     plazo_elegido = st.selectbox("Plazo elegido por el cliente (semanas)", [1, 4, 8, 12, 16])
     inicial = st.number_input("Inicial ($)", min_value=0.0, value=0.0, step=10.0)
     descuento = st.slider("Descuento aplicado (%)", 0, 100, 0)
