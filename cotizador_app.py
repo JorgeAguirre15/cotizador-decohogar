@@ -15,6 +15,10 @@ def cargar_productos():
     with open("productos.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
+def guardar_productos(productos):
+    with open("productos.json", "w", encoding="utf-8") as f:
+        json.dump(productos, f, indent=4, ensure_ascii=False)
+
 # === Factor de precio según plazo y monto ===
 def obtener_factor_precio(precio, plazo):
     if plazo == 1 and precio <= 50:
@@ -142,9 +146,20 @@ with st.sidebar:
     precio_personalizado = st.number_input("Precio del producto ($)", min_value=0.0, step=10.0)
 
     if nombre_personalizado and precio_personalizado > 0:
+        nuevo_producto = {
+            "name": nombre_personalizado,
+            "price": precio_personalizado,
+            "image": ""  # Si más adelante quieres subir imagen, aquí la pones
+        }
+    
+        productos.append(nuevo_producto)
+        guardar_productos(productos)  # Aquí se guarda automáticamente 💾
+    
         productos_seleccionados.append(nombre_personalizado)
-        productos.append({"name": nombre_personalizado, "price": precio_personalizado, "image": ""})
         nombres_productos.append(nombre_personalizado)
+    
+        st.success(f"✅ Producto '{nombre_personalizado}' guardado exitosamente.")
+
 
     st.markdown("---")
     plazo_elegido = st.selectbox("Plazo elegido por el cliente (semanas)", [1, 4, 8, 12, 16])
@@ -177,8 +192,6 @@ if productos_seleccionados:
 
         tabla_resultado.append({
             "Producto": nombre,
-            "Precio base": f"${precio:,.2f}",
-            "Con descuento": f"${precio_desc:,.2f}",
             "Valor total": f"${valor_total:,}",
             "Inicial": f"${aporte_inicial:,}",
             "Cuota semanal": f"${cuota:,}"
