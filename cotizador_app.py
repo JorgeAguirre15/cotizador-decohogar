@@ -16,8 +16,14 @@ def cargar_productos():
         return json.load(f)
 
 def guardar_productos(productos):
-    with open("productos.json", "w", encoding="utf-8") as f:
-        json.dump(productos, f, indent=4, ensure_ascii=False)
+    ruta = "productos.json"
+    try:
+        with open(ruta, "w", encoding="utf-8") as f:
+            json.dump(productos, f, indent=4, ensure_ascii=False)
+        print(f"✅ Guardado correctamente en {ruta}")
+    except Exception as e:
+        print(f"❌ Error al guardar: {e}")
+
 
 # === Factor de precio según plazo y monto ===
 def obtener_factor_precio(precio, plazo):
