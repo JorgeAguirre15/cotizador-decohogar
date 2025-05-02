@@ -179,7 +179,6 @@ with st.sidebar:
 
 
 # === Tabla única de productos seleccionados y sus márgenes por plazo ===
-# === Mostrar margen de ganancia por producto y plazo ===
 if productos_seleccionados:
     st.subheader("📦 Margen de ganancia por plazo")
 
@@ -188,26 +187,32 @@ if productos_seleccionados:
 
     for nombre in productos_seleccionados:
         producto = next((p for p in productos if p["name"] == nombre), None)
-        if producto:
-            precio = producto["price"]
-            for plazo in plazos_default:
+        if not producto:
+            continue  # Saltar si no encontró el producto
+
+        precio = producto.get("price", 0)
+
+        for plazo in plazos_default:
+            try:
                 factor = obtener_factor_precio(precio, plazo)
                 if factor is not None:
-                    margen = f"{(factor - 1)*100:.0f}%"  # Convertir a porcentaje
+                    margen = f"{(factor - 1) * 100:.0f}%"
                     filas.append({
                         "Producto": nombre,
                         "Costo": f"${precio:,.2f}",
                         "Plazo (semanas)": plazo,
                         "Margen (%)": margen
                     })
+            except Exception as e:
+                print(f"Error al calcular margen para {nombre} - plazo {plazo}: {e}")
 
-    if filas:
+    # Mostrar la tabla si hay datos
+    if len(filas) > 0:
         df_margenes = pd.DataFrame(filas)
         st.dataframe(df_margenes, use_container_width=True)
     else:
-        st.info("No hay datos disponibles para mostrar márgenes.")
-else:
-    st.info("Selecciona productos desde la barra lateral para ver los márgenes.")
+        st.warning("⚠️ No se pudo calcular ningún margen para los productos seleccionados.")
+
 
 
 
