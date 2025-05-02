@@ -191,16 +191,20 @@ if productos_seleccionados:
             precio = producto["price"]
             for plazo in plazos_default:
                 factor = obtener_factor_precio(precio, plazo)
-                margen = f"{(factor - 1)*100:.0f}%"  # Mostrar como porcentaje sin decimales
-                filas.append({
-                    "Producto": nombre,
-                    "Costo": f"${precio:,.2f}",
-                    "Plazo (semanas)": plazo,
-                    "Margen (%)": margen
-                })
+                if factor:  # Solo si retorna un factor válido
+                    margen = f"{(factor - 1)*100:.0f}%"
+                    filas.append({
+                        "Producto": nombre,
+                        "Costo": f"${precio:,.2f}",
+                        "Plazo (semanas)": plazo,
+                        "Margen (%)": margen
+                    })
 
-    df_margenes = pd.DataFrame(filas)
-    st.dataframe(df_margenes, use_container_width=True)
+    if filas:
+        df_margenes = pd.DataFrame(filas)
+        st.dataframe(df_margenes, use_container_width=True)
+    else:
+        st.info("No se encontraron factores válidos para los productos seleccionados.")
 
 
 if productos_seleccionados:
