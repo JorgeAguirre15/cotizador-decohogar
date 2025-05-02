@@ -136,6 +136,9 @@ def generar_pdf(nombre_cliente, productos, resumen_tabla, resumen_consolidado, i
 # === Interfaz principal ===
 
 st.set_page_config(page_title="Cotizador Decohogar", layout="wide")
+
+productos = cargar_productos()
+
 st.title("🛒 Cotizador Decohogar")
 
 # Mostrar tabla de productos con multiplicador por plazo
@@ -159,7 +162,6 @@ for plazo in plazos_default:
     st.dataframe(tabla_plazo, use_container_width=True)
 
 
-productos = cargar_productos()
 nombres_productos = [p["name"] for p in productos]
 
 with st.sidebar:
