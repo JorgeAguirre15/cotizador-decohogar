@@ -8,7 +8,7 @@ from reportlab.pdfgen import canvas
 from io import BytesIO
 from datetime import datetime
 import base64
-
+import pandas as pd 
 # === Cargar productos ===
 @st.cache_data
 def cargar_productos():
