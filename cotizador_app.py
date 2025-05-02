@@ -188,30 +188,32 @@ if productos_seleccionados:
     for nombre in productos_seleccionados:
         producto = next((p for p in productos if p["name"] == nombre), None)
         if not producto:
-            continue  # Saltar si no encontró el producto
+            continue
 
         precio = producto.get("price", 0)
 
         for plazo in plazos_default:
-            try:
-                factor = obtener_factor_precio(precio, plazo)
-                if factor is not None:
-                    margen = f"{(factor - 1) * 100:.0f}%"
-                    filas.append({
-                        "Producto": nombre,
-                        "Costo": f"${precio:,.2f}",
-                        "Plazo (semanas)": plazo,
-                        "Margen (%)": margen
-                    })
-            except Exception as e:
-                print(f"Error al calcular margen para {nombre} - plazo {plazo}: {e}")
+            factor = obtener_factor_precio(precio, plazo)
 
-    # Mostrar la tabla si hay datos
-    if len(filas) > 0:
-        df_margenes = pd.DataFrame(filas)
-        st.dataframe(df_margenes, use_container_width=True)
+            if factor is not None and isinstance(factor, (int, float)):
+                margen = f"{(factor - 1) * 100:.0f}%"
+                filas.append({
+                    "Producto": nombre,
+                    "Costo": f"${precio:,.2f}",
+                    "Plazo (semanas)": plazo,
+                    "Margen (%)": margen
+                })
+
+    # Mostrar tabla solo si hay filas válidas
+    if filas:
+        try:
+            df_margenes = pd.DataFrame(filas)
+            st.dataframe(df_margenes, use_container_width=True)
+        except Exception as e:
+            st.error(f"❌ Error al crear la tabla: {e}")
     else:
-        st.warning("⚠️ No se pudo calcular ningún margen para los productos seleccionados.")
+        st.warning("⚠️ No se encontraron márgenes válidos para mostrar.")
+
 
 
 
