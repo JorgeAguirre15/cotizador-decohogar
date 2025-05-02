@@ -138,6 +138,27 @@ def generar_pdf(nombre_cliente, productos, resumen_tabla, resumen_consolidado, i
 st.set_page_config(page_title="Cotizador Decohogar", layout="wide")
 st.title("🛒 Cotizador Decohogar")
 
+# Mostrar tabla de productos con multiplicador por plazo
+st.subheader("📦 Multiplicadores por producto y plazo")
+
+plazos_default = [1, 4, 8, 12, 16]
+
+for plazo in plazos_default:
+    st.markdown(f"**🕒 Plazo: {plazo} semanas**")
+    tabla_plazo = []
+    
+    for p in productos:
+        precio = p["price"]
+        factor = obtener_factor_precio(precio, plazo)
+        tabla_plazo.append({
+            "Producto": p["name"],
+            "Costo": f"${precio:,.2f}",
+            "Multiplicador": factor
+        })
+    
+    st.dataframe(tabla_plazo, use_container_width=True)
+
+
 productos = cargar_productos()
 nombres_productos = [p["name"] for p in productos]
 
