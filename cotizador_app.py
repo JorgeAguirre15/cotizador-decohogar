@@ -177,28 +177,31 @@ with st.sidebar:
     inicial = st.number_input("Inicial ($)", min_value=0.0, value=0.0, step=10.0)
     descuento = st.slider("Descuento aplicado (%)", 0, 100, 0)
 
-# === Cotización ===
+
+# === Tabla única de productos seleccionados y sus márgenes por plazo ===
 if productos_seleccionados:
-    st.subheader("📦 Multiplicadores por producto y plazo")
+    st.subheader("📦 Margen de ganancia por plazo")
 
     plazos_default = [1, 4, 8, 12, 16]
+    filas = []
 
-    for plazo in plazos_default:
-        st.markdown(f"**🕒 Plazo: {plazo} semanas**")
-        tabla_plazo = []
-
-        for nombre in productos_seleccionados:
-            producto = next((p for p in productos if p["name"] == nombre), None)
-            if producto:
-                precio = producto["price"]
+    for nombre in productos_seleccionados:
+        producto = next((p for p in productos if p["name"] == nombre), None)
+        if producto:
+            precio = producto["price"]
+            for plazo in plazos_default:
                 factor = obtener_factor_precio(precio, plazo)
-                tabla_plazo.append({
+                margen = f"{(factor - 1)*100:.0f}%"  # Mostrar como porcentaje sin decimales
+                filas.append({
                     "Producto": nombre,
                     "Costo": f"${precio:,.2f}",
-                    "Multiplicador": factor
+                    "Plazo (semanas)": plazo,
+                    "Margen (%)": margen
                 })
 
-        st.dataframe(tabla_plazo, use_container_width=True)
+    df_margenes = pd.DataFrame(filas)
+    st.dataframe(df_margenes, use_container_width=True)
+
 
 if productos_seleccionados:
     st.subheader("📌 Cotización con plazo elegido")
