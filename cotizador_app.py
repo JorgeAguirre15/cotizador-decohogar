@@ -142,27 +142,6 @@ productos = cargar_productos()
 st.title("🛒 Cotizador Decohogar")
 
 # Mostrar tabla de productos seleccionados y multiplicadores por cada plazo
-if productos_seleccionados:
-    st.subheader("📦 Multiplicadores por producto y plazo")
-
-    plazos_default = [1, 4, 8, 12, 16]
-
-    for plazo in plazos_default:
-        st.markdown(f"**🕒 Plazo: {plazo} semanas**")
-        tabla_plazo = []
-
-        for nombre in productos_seleccionados:
-            producto = next((p for p in productos if p["name"] == nombre), None)
-            if producto:
-                precio = producto["price"]
-                factor = obtener_factor_precio(precio, plazo)
-                tabla_plazo.append({
-                    "Producto": nombre,
-                    "Costo": f"${precio:,.2f}",
-                    "Multiplicador": factor
-                })
-
-        st.dataframe(tabla_plazo, use_container_width=True)
 
 
 nombres_productos = [p["name"] for p in productos]
@@ -199,6 +178,27 @@ with st.sidebar:
     descuento = st.slider("Descuento aplicado (%)", 0, 100, 0)
 
 # === Cotización ===
+if productos_seleccionados:
+    st.subheader("📦 Multiplicadores por producto y plazo")
+
+    plazos_default = [1, 4, 8, 12, 16]
+
+    for plazo in plazos_default:
+        st.markdown(f"**🕒 Plazo: {plazo} semanas**")
+        tabla_plazo = []
+
+        for nombre in productos_seleccionados:
+            producto = next((p for p in productos if p["name"] == nombre), None)
+            if producto:
+                precio = producto["price"]
+                factor = obtener_factor_precio(precio, plazo)
+                tabla_plazo.append({
+                    "Producto": nombre,
+                    "Costo": f"${precio:,.2f}",
+                    "Multiplicador": factor
+                })
+
+        st.dataframe(tabla_plazo, use_container_width=True)
 
 if productos_seleccionados:
     st.subheader("📌 Cotización con plazo elegido")
