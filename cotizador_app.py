@@ -149,7 +149,7 @@ nombres_productos = [p["name"] for p in productos]
 with st.sidebar:
     st.header("📋 Parámetros de cotización")
 
-    productos_seleccionados = st.multiselect("Selecciona productos", nombres_productos)
+    # productos_seleccionados = st.multiselect("Selecciona productos", nombres_productos)
 
     st.markdown("---")
     st.subheader("➕ Agregar producto personalizado")
@@ -317,3 +317,4 @@ if productos_seleccionados:
 
 else:
     st.info("Selecciona productos desde la barra lateral para comenzar.")
+
